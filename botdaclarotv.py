@@ -46,7 +46,7 @@ def formatar_hit(email, senha, dados):
         f"║ Email: {email}\n"
         f"║ Senha: {senha}\n"
         f"║ User_cpf: {dados.get('data', {}).get('user_cpf', 'N/A')}\n"
-        f"║ Contract_type: {dados.get('data', {}).get('contract_type', 'N/A')}\n"
+        f"║ Tipo_de_contrato: {dados.get('data', {}).get('contract_type', 'N/A')}\n"
         f"║  Conta Válida!✅️\n"
         f"╚》🇧🇷●🅒🅛🅐🅡🅞🅣🅥+🇧🇷"
     )
